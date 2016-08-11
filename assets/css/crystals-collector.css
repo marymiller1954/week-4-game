@@ -1,0 +1,121 @@
+body {
+/* background-image:url(blue_swirls.jpg no-repeat center center fixed); */
+background: url("../images/swirl_pattern.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+
+
+
+}
+
+
+h1{
+	background-color: #CC5500;
+	color: white;
+	display:inline;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: solid 1px #ddd;
+}
+
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#instructions {
+	background-color: #ffffc7;
+	color: #458B00;
+	width: 30%;
+	height: 350px;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ddd
+}
+
+#guessingNumber {
+	background-color: #00cc99;
+	float: left;
+	height: 200px;
+	width: 280px;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	border: solid 1px #ddd
+}
+
+#scoreboard {
+	background-color: #03A9F4;
+	display: inline-block;
+	height: 200px;
+	width:    80px;
+	padding: 15px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: solid 1px #ddd
+	margin-bottom: 0px;
+
+}
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+
+.crystalImage {
+	height: 111px;
+	border: solid 1px #272525;
+	background-color: black;
+	margin-left: 10px
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+#totalScore {
+	margin-bottom: 50px;
+	height:  25px;
+	width:   350px;
+}
+
+#yts {
+	background: #009688;
+	display: inline;
+	padding: 20px;
+	border: solid 1px #ddd
+}
+@media only screen and (max-width: 980px) {
+    body {
+        padding: 0 20px;
+        max-width: 980px;
+        position: fixed;
+/*        overflow: auto; */
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+        padding: 0 20px;
+        max-width: 768px;
+        position: fixed;
+/*        overflow: auto; */
+    }
+}
+@media only screen and (max-width: 640px) {
+padding: 0 20px;
+        max-width: 640px;
+        position: fixed;
+/*        overflow: auto; */
+    }
+}
