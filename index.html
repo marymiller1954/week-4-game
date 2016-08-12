@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<title>Crystal Collectors!</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/crystals-collector.css">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+
+
 </head>
 <body>
 
 <div id = "wrapper">
 
-<h1><span>Crystal Collectors!<span></h1>
+<h1>Crystal Collectors!</h1>
 
 	<div id="instructions">
-		<p> You will be given a random number at the start of the game.</p>
-		<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-		<p> You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number. </p>
-		<p> Each time the game starts, the game will change the values of each crystal.</p>
+		<p><strong>You will be given a random number at the start of the game.</strong></p>
+		<p><strong>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</strong></p>
+		<p><strong>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number. </strong></p>
+		<p><strong>Each time the game starts, the game will change the values of each crystal.</strong></p>
 	</div>
 
 	<div class = "container">
-		<div id="guessingNumber">
-			<h2>Number to Guess: <span class="value"></span></h2> 	
+		<div id="targetNumber">
+			<h2>Target Number: <span class="value"></span></h2> 	
 		</div>
 
 		<div id="scoreboard">
@@ -34,7 +41,7 @@
 	<div id="crystals"></div>
 
 	<div id ="totalScore">
-		<h2 id = "yts">Your Total Score is: <span id ="yourScore">0</span></h2>
+		<h2 id = "yourTotal">Your Total Score is: <span id ="yourScore">0</span></h2>
 		
 	</div>
 

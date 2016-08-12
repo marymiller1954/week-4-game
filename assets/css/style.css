@@ -5,8 +5,11 @@ background: url("../images/swirl_pattern.png") no-repeat center center fixed;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; 
-
-
+/*   border: solid;
+  border-color: black;
+  border-style: solid; */
+  margin-top: 0px;
+  margin-bottom: 0px;
 
 }
 
@@ -17,15 +20,18 @@ h1{
 	display:inline;
 	clear: both;
 	padding: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
+	margin-top: 30px;
 	border: solid 1px #ddd;
 }
 
 #wrapper {
 	width: 100%
 	max-width:960px;
-	margin: 0 auto;
+    margin: 0 auto;
 	font-family: 'Titillium Web', sans-serif;
+	margin-bottom: 5px;
+	margin-top: 5px;
 }
 
 #instructions {
@@ -36,31 +42,32 @@ h1{
 	clear:both;
 	padding: 15px;
 	margin-top: 20px;
-	border: solid 1px #ddd
+	border: solid 1px #ddd;
+	margin-bottom: 5px;
 }
 
-#guessingNumber {
+#targetNumber {
 	background-color: #00cc99;
 	float: left;
-	height: 200px;
+	height: 180px;
 	width: 280px;
 	display: inline-block;
 	padding: 10px;
-	margin-top: 20px;
-	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 5px;
 	border: solid 1px #ddd
 }
 
 #scoreboard {
 	background-color: #03A9F4;
 	display: inline-block;
-	height: 200px;
+	height: 180px;
 	width:    80px;
 	padding: 15px 20px 10px 15px;
-	margin-top: 20px;
+	margin-top: 0px;
 	margin-left: 20px;
 	border: solid 1px #ddd
-	margin-bottom: 0px;
+	margin-bottom: 5px;
 
 }
 
@@ -88,34 +95,59 @@ h1{
 	width:   350px;
 }
 
-#yts {
+#yourTotal {
 	background: #009688;
 	display: inline;
 	padding: 20px;
 	border: solid 1px #ddd
 }
-@media only screen and (max-width: 980px) {
-    body {
-        padding: 0 20px;
-        max-width: 980px;
-        position: fixed;
-/*        overflow: auto; */
-    }
+
+/* Additional Screen Sizes */
+
+
+@media screen and (max-width: 768px) {
+
+	body {
+		background-color: #333;
+	}
+	.wrapper {
+		width: 100%;
+		padding: 20px;
+
+	}
+
+	.instructions {
+
+
+	height: 200px;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ddd;
+	margin-bottom: 5px;
+
+	}
+
 
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
 
-        padding: 0 20px;
-        max-width: 768px;
-        position: fixed;
-/*        overflow: auto; */
-    }
-}
-@media only screen and (max-width: 640px) {
-padding: 0 20px;
-        max-width: 640px;
-        position: fixed;
-/*        overflow: auto; */
-    }
+	body {
+		background-color: #333;
+	}
+	.wrapper {
+		width: 100%;
+		padding: 20px;
+	}
+	.instructions {
+
+	}
+	height: 200px;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ddd;
+	margin-bottom: 5px;
+
 }
